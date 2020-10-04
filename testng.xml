@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="E:/IntelliJ Java Backup/Test_Selenium_Project/src/com/selenium/src/TestNG/ReadDataFromXML.java">
+        <parameter name="username" value="admin"/>
+        <parameter name="password" value="manager"/>
+        <classes>
+            <class name="TestNG.ReadDataFromXML">
+                <methods>
+                    <include name="getDataFromXML"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
